@@ -1,4 +1,17 @@
 .review {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.pro-img {
+    width: 50px;
+    height: 50px;
+    margin: 4rem;
+    border-radius: 50%;
+}
+
+.client {
+    color: rgb(95, 9, 9);
 }
