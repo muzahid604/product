@@ -5,7 +5,6 @@ import './Reviews.css'
 
 const Reviews = () => {
     const [reviews] = useReviews();
-
     return (
         <div>
             <h1 className='review-head'>Top reviews from customers({reviews.length})</h1>
@@ -16,7 +15,7 @@ const Reviews = () => {
                 >
                 </Review>)
             }
-            <button className='btn-see-more'>See more...</button>
+
         </div>
     );
 };

@@ -3,6 +3,7 @@ import React from 'react';
 import './Home.css'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import Reviews from '../Reviews/Reviews';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -33,6 +34,7 @@ const Home = () => {
             <div className='review-home'>
                 <Reviews></Reviews>
             </div>
+            <Link className='btn-link' to='/reviews'>SEE ALL</Link>
         </div>
     );
 };
