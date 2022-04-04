@@ -1,0 +1,9 @@
+.charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.charts h4 {
+    text-align: center;
+}

@@ -13,6 +13,14 @@
     margin-left: 2rem;
 }
 
+.site {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 196, 0);
+    margin-right: 15rem;
+}
+
 .links:hover {
     border-bottom: 1px solid wheat;
     border-top: 1px solid wheat;
