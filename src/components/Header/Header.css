@@ -1,5 +1,19 @@
-h1 {
+.header {
+    height: 4rem;
     background-color: black;
-    color: #ffffff;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 2rem;
+}
+
+.links:hover {
+    border-bottom: 1px solid wheat;
+    border-top: 1px solid wheat;
 }

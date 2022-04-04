@@ -1,0 +1,21 @@
+.products-details {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.name {
+    color: rgb(121, 3, 3);
+}
+
+.image img {
+    width: 80%;
+    margin-left: 1.5rem;
+    border-radius: 50px;
+    height: 400px;
+}
+
+.rating {
+    color: rgb(207, 177, 7);
+}
