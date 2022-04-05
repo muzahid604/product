@@ -8,7 +8,6 @@ const Dashbord = () => {
         axios.get('data.json')
             .then(data => {
                 const lodedData = data.data;
-                console.log(lodedData)
                 setData(lodedData)
             })
     }, []

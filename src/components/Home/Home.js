@@ -2,11 +2,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Home.css'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-import Reviews from '../Reviews/Reviews';
 import { Link } from 'react-router-dom';
+import HomeReview from '../HomeReview/HomeReview';
 
 
 const Home = () => {
+
     return (
         <div>
             <div className='products-details'>
@@ -32,7 +33,7 @@ const Home = () => {
                 </div>
             </div >
             <div className='review-home'>
-                <Reviews></Reviews>
+                <HomeReview></HomeReview>
             </div>
             <Link className='btn-link' to='/reviews'>SEE ALL</Link>
         </div>
