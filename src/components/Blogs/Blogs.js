@@ -21,6 +21,20 @@ const Blogs = () => {
             </div>
             <div className="answer">
                 <h2>what is semantic tag?</h2>
+                <p>The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. Semantic HTML tags allow you to add meaning to your markup so that search engines, screen readers, and web browsers can make sense of it.
+                    <br /><br />
+
+                    Example of semantic Elements
+                    <br />
+                    <li>header</li>
+                    <li>article</li>
+                    <li>nav</li>
+                    <li>aside</li>
+                    <li>section</li>
+                    <li>details</li>
+                    etc
+                </p>
+
             </div>
         </div>
     );
