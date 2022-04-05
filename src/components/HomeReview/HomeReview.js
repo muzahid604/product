@@ -4,7 +4,7 @@ import Review from '../Review/Review';
 
 const HomeReview = () => {
     const [reviews] = useReviews();
-    const homeReviews = reviews.slice(0, 3);
+    const homeReviews = reviews.slice(3, 6);
 
     return (
         <div>
