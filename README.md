@@ -7,3 +7,8 @@
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+ This will create a bullet point list in your markdown
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
