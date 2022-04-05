@@ -1,11 +1,11 @@
 # DRONENERDS
 
-[Create React App](https://github.com/facebook/create-react-app).
+[Live site link](https://fanciful-cascaron-f7280c.netlify.app/)
 
 
 
 
-[http://localhost:3000](http://localhost:3000)
+[https://fanciful-cascaron-f7280c.netlify.app/](https://fanciful-cascaron-f7280c.netlify.app/)
 
 * DRONENERDS's Home
 * DRONENERDS's Dashbord

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Blogs.css'
+import './Blogs.css';
 const Blogs = () => {
     return (
         <div>
@@ -40,4 +40,4 @@ const Blogs = () => {
     );
 };
 
-export default Blogs; <h1>This is blog</h1>
+export default Blogs;
