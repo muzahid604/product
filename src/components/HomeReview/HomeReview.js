@@ -8,7 +8,7 @@ const HomeReview = () => {
 
     return (
         <div>
-            <h1 className='review-head'>Top reviews from customers({reviews.length})</h1>
+            <h1 className='review-head'>Top reviews from customers({homeReviews.length})</h1>
             {
                 homeReviews.map(homeReview => <Review
                     key={homeReview.id}
